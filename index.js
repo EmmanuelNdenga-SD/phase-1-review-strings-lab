@@ -1,5 +1,7 @@
 // Write your code in this file!
-const currentUser = 'Emmanuel Ndenga';
-const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
-const excitedWelcomeMessage = welcomeMessage.toUpperCase();
-const shortGreeting = `Welcome, ${currentUser.slice(0,1)}!`;
+let currentUser = 'Emmanuel Ndenga';
+let welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
+let excitedWelcomeMessage = ` ${welcomeMessage.toUpperCase()} ${currentUser.toUpperCase}!`;
+let shortGreeting =  `"Welcome, " ${currentUser.charAt(0)}  ` + '!'
+
+
